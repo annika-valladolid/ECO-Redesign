@@ -1,0 +1,71 @@
+// tablet 
+
+@media only screen and (max-width: 850px) {
+
+    // narbar 
+    .navbar {
+        padding: 0;
+
+        .logo {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+        }
+
+        .nav-links {
+            flex-direction: column;
+            width: 100vw;
+            height: 100vh;
+            justify-content: center;
+            background: #659798;
+            margin-top: -900px;
+        }
+
+        #menu-icon {
+            display: block;
+        }
+
+        .nav-links li {
+            margin: 30px auto;
+            z-index: 2;
+        }
+
+        .box-container {
+            padding-bottom: 200px;
+        }
+
+        .box {
+            width: 100%;
+        }
+
+        // about us section
+        .about-us {
+            flex-direction: column;
+
+            img {
+                flex: 0 100%;
+                max-width: 90%;
+            }
+
+            .about-content {
+                flex: 0 100%;
+                max-width: 100%;
+                padding: 15px;
+            }
+        }
+
+        // about us page : teams 
+        .teams {
+            max-width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        // footer
+        .footer-col {
+            width: 50%;
+            margin-bottom: 30px;
+        }
+
+    }
+}
